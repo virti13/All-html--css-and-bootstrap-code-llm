@@ -1,0 +1,19 @@
+/* Styling the heading */
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+/* Styling the paragraph */
+p {
+    color: green;
+    font-size: 20px;
+}
+
+/* Styling the button */
+button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}

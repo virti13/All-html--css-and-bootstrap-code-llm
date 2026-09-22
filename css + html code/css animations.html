@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Animation</title>
+
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: relative;
+
+            animation-name: moveBox;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes moveBox {
+
+            0% {
+                left: 0px;
+                background-color: blue;
+            }
+
+            50% {
+                left: 300px;
+                background-color: red;
+            }
+
+            100% {
+                left: 0px;
+                background-color: green;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Animation</h1>
+
+    <div class="box"></div>
+
+</body>
+
+</html>

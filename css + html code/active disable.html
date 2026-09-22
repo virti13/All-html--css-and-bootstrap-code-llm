@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Active and Disabled Buttons</title>
+
+    <style>
+        /* Common button styling */
+        button {
+            padding: 12px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        /* Active button */
+        .active {
+            background-color: green;
+            color: white;
+            cursor: pointer;
+        }
+
+        /* Change background when the active button is clicked */
+        .active:active {
+            background-color: darkgreen;
+        }
+
+        /* Disabled button */
+        .disabled {
+            background-color: gray;
+            color: white;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Button Example</h1>
+
+    <!-- Active button -->
+    <button class="active">Click Me</button>
+
+    <!-- Disabled button -->
+    <button class="disabled" disabled>Disabled</button>
+
+</body>
+
+</html>
